@@ -77,7 +77,7 @@
   </form>
   <p class="or">Or</p>
   <div class="icons">
-    <i id="googleSignUpBtn" class="fab fa-google"></i>
+    <label for="googleSignUpBtn"> Google <i id="googleSignUpBtn" class="fab fa-google"></i></label>
   </div>
   <div class="links">
     <p style="color: rgb(59, 59, 255);">Already Have Account?</p>
@@ -251,5 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+
+    
 </body>
 </html>
