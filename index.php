@@ -99,13 +99,13 @@
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
   const firebaseConfig = {
-    apiKey: "AIzaSyDoIAiSnBx8GGNhjQkEB7j1bANx7k2l8dc",
-    authDomain: "rizzauthapp.firebaseapp.com",
-    projectId: "rizzauthapp",
-    storageBucket: "rizzauthapp.firebasestorage.app",
-    messagingSenderId: "607508317395",
-    appId: "1:607508317395:web:f2f403d10915d6d2ef4026",
-    measurementId: "G-2YQFBWK95F"
+    apiKey: "your-api-key-here",
+    authDomain: "YourAuthDomainHere",
+    projectId: "YourProjectIdHere",
+    storageBucket: "YourStorageBucketHere",
+    messagingSenderId: "YourMessagingSenderIdHere",
+    appId: "YourAppIdHere",
+    measurementId: "YourMeasurementIdHere"
   };
 
   const app = initializeApp(firebaseConfig);
